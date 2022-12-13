@@ -39,3 +39,31 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-repeat: no-repeat;
     -fx-background-position:center;
 }
+
+#fastForwardButton {
+    -fx-background-image: url("../images/fastforward.png");
+    -fx-background-size:20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}
+
+#forwardButton {
+    -fx-background-image: url("../images/forward.png");
+    -fx-background-size:20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}
+
+#fastRewindButton {
+    -fx-background-image: url("../images/fastrewind.png");
+    -fx-background-size:20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}
+
+#rewindButton {
+    -fx-background-image: url("../images/rewind.png");
+    -fx-background-size:20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}

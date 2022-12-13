@@ -65,7 +65,7 @@ public class FXMLDocumentController implements Initializable {
             width.bind(Bindings.selectDouble(mediaView.sceneProperty(), "width"));
             height.bind(Bindings.selectDouble(mediaView.sceneProperty(), "height"));
 
-            slider.setValue(mediaPlayer.getVolume() * 100);
+            slider.setValue(mediaPlayer.getVolume() * 50);
             slider.valueProperty().addListener(new InvalidationListener() {
                 @Override
                 public void invalidated(Observable observable) {

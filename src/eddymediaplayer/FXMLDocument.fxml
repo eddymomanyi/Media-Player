@@ -31,11 +31,17 @@
                      <HBox.margin>
                         <Insets right="10.0" />
                      </HBox.margin></Button>
-                  <Button mnemonicParsing="false" onAction="#slowerVideo" text="&lt;&lt;&lt;" />
-                  <Button mnemonicParsing="false" onAction="#slowVideo" text="&lt;&lt;" />
-                  <Button mnemonicParsing="false" onAction="#fastVideo" text="&gt;&gt;" />
-                  <Button mnemonicParsing="false" onAction="#fasterVideo" text="&gt;&gt;&gt;" />
-                  <Button mnemonicParsing="false" onAction="#exitVideo" text="Exit">
+                  <Button fx:id="fastRewindButton" mnemonicParsing="false" onAction="#slowerVideo" prefHeight="20.0" prefWidth="20.0" />
+                  <Button fx:id="rewindButton" mnemonicParsing="false" onAction="#slowVideo" prefHeight="20.0" prefWidth="20.0">
+                     <HBox.margin>
+                        <Insets left="5.0" right="1.25" />
+                     </HBox.margin></Button>
+                  <Button fx:id="forwardButton" mnemonicParsing="false" onAction="#fastVideo" prefHeight="20.0" prefWidth="20.0">
+                     <HBox.margin>
+                        <Insets left="1.25" right="5.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="fastForwardButton" mnemonicParsing="false" onAction="#fasterVideo" prefHeight="20.0" prefWidth="20.0" />
+                  <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitVideo" text="Exit">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin></Button>
@@ -48,7 +54,7 @@
    <center>
       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="200.0" />
+            <MediaView fx:id="mediaView" fitHeight="100.0" fitWidth="100.0" />
             <Slider fx:id="seekSlider" StackPane.alignment="BOTTOM_CENTER" />
          </children>
       </StackPane>
