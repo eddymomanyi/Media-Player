@@ -1,5 +1,5 @@
 # Video Player
-A media player that can play videos (i.e. mp4 files) from a local library. Used JavaFX to build the application. The JavaFX MediaPlayer class in conjuction with the Media and MediaView classes display the video and handle playback functions. Used FXML with Scene Builder and CSS to build the UI. 
+A desktop application that can play videos (i.e. mp4 files) from a local library. Used JavaFX to build the application. The JavaFX MediaPlayer class in conjuction with the Media and MediaView classes display the video and handle playback functions. Used FXML with Scene Builder and CSS to build the UI. 
 ### Features: ###
 * Play, Pause, Stop
 * Speed up video to 1.5x and 2x video speed
